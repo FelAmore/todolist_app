@@ -50,6 +50,7 @@
     -moz-appearance: none;
     width: 140px;
     padding: 4px 10px;
+    border: 1px solid #509be1;
     border-radius: 4px;
     background-color: #509be1;
     font-size: 12px;
