@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background: #F9F2ED;
+    color: #F2F2F2;
+    min-height: 100vh;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+
+/*
+light blue = #d3e9ff
+light pink = #ffd5d5
+salmon pink = #ffa0ad
+blue = #509be1
+pink = #ff71b2
+bg color = #f9f2ed
+*/
