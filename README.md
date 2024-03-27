@@ -3,4 +3,3 @@ A to-do list application created using react + vite.js. Features include create 
 
 #### live demo: https://todolist-app-tawny.vercel.app/ 
 
-![loginpage](/img/LoginPage with Email&Pass and Google)
