@@ -3,3 +3,4 @@ A to-do list application created using react + vite.js. Features include create 
 
 #### live demo: https://todolist-app-tawny.vercel.app/ 
 
+![dashboard](images/Dashboard.png)
