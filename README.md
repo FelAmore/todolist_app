@@ -12,8 +12,13 @@ A to-do list application created using react + vite.js. Features include create 
 #### Home Page
 ![dashboard](img/Dashboard.png)
 
+#### Editing Task
+![edit](img/Edit.png)
+
 #### User Profile Page
 ![profile](img/ProfilePage.png)
+
+
 
 
 
