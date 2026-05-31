@@ -51,22 +51,12 @@ const ProfilePage = () => {
             {userLoggedIn && (
                 <div className="text-center space-y-6 p-12 shadow-xl border rounded-xl bg-[#fbf7f4] border-[#ffa0ad]">
                     {/* User's Profile Picture */}
-                    <div className="relative flex justify-center items-center flex-col">
+                    <div className="flex justify-center items-center flex-col">
                         <img
-                            src={selectedImage || currentUser.photoURL || defaultProfilePicture} // Use selected image if available, otherwise use the user's current profile picture
+                            src={selectedImage || (currentUser.photoURL && currentUser.photoURL !== "" ? currentUser.photoURL : defaultProfilePicture)}
                             alt="Profile"
                             className="mx-auto rounded-full w-20 h-20 object-cover"
-                        />
-                        {/* Edit Profile Picture link */}
-                        <label htmlFor="imageInput" className="absolute top-16 right-17 lg:right-13 p-1 bg-[#509be1] text-[#f9f2ed] hover:text-[#72afe7] hover:border-[#72afe7] font-semibold text-xs cursor-pointer rounded-md">
-                            Edit
-                        </label>
-                        <input
-                            type="file"
-                            id="imageInput"
-                            accept="image/*"
-                            className="hidden"
-                            onChange={handleImageChange}
+                            onError={(e) => { e.target.src = defaultProfilePicture }}
                         />
                     </div>
 

@@ -47,7 +47,7 @@ const Login = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             {userLoggedIn && (<Navigate to={'/home'} replace={true} />)}
             <img src={logo} className={styles.auth}/>
-            <main className="main-content w-full h-screen flex self-center place-content-center place-items-center">
+            <main className="main-content w-full h-screen flex self-center place-content-center place-items-center -mt-32">
                 <div className="w-96 text-gray-600 space-y-7 p-4 shadow-xl border rounded-xl bg-[#fbf7f4] border-[#ffa0ad]">
 
                     <div className="text-center">
